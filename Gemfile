@@ -7,6 +7,9 @@ gem 'rails', '3.2.21'
 group :development do
   gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
+  gem 'better_errors', '~> 1.1'
+  gem 'binding_of_caller'
+  gem 'rails-erd'
 end
 
 group :production do
