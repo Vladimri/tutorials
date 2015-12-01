@@ -4,6 +4,8 @@ gem 'rails', '3.2.21'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'bootstrap-sass', '2.3.2.0'
+
 group :test, :development do
   gem 'rspec-rails'
   gem 'capybara-webkit', git: 'https://github.com/thoughtbot/capybara-webkit.git'
