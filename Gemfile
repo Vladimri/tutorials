@@ -4,9 +4,13 @@ gem 'rails', '3.2.21'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+group :test, :development do
+  gem 'rspec-rails'
+  gem 'capybara-webkit', git: 'https://github.com/thoughtbot/capybara-webkit.git'
+end
+
 group :development do
   gem 'sqlite3'
-  gem 'rspec-rails', '2.13.1'
   gem 'better_errors', '~> 1.1'
   gem 'binding_of_caller'
   gem 'rails-erd'
