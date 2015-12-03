@@ -6,10 +6,15 @@ gem 'rails', '3.2.21'
 
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt-ruby', '3.0.0'
+gem 'will_paginate', '3.0.3'
+gem 'bootstrap-will_paginate', '0.0.6'
 
 group :test, :development do
   gem 'rspec-rails'
   gem 'capybara-webkit', git: 'https://github.com/thoughtbot/capybara-webkit.git'
+  gem 'pry-rails'
+  gem 'pry-debugger'
+  gem 'pry-stack_explorer'
 end
 
 group :development do
@@ -42,6 +47,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'faker', '1.0.1'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
